@@ -12,17 +12,18 @@ if %color%==1 goto start
 color a4
 :start
 cls
-title Coding Enviroment Set-up
+title Coding Environment Set-up
 echo.
 echo - - - - - - - - - - - - -
 echo.
-echo Coding Enviroment Set-up
+echo Coding Environment Set-up
 echo.
 echo - - - - - - - - - - - - -
 echo.
 echo !!This program is to be run on a clean install of windows. If you have installed any tools related to program this tool may break the os!!
 echo !!This program will Modify system settings and install programs!!
-echo To continue press one and to exit press two then press enter. If you have run this program but it has crashed or is a Developer for Coding Enviroment Set-up press 3. Themes are not allowed in crashed mode
+echo Please make sure the path to this file is C:\CodeTools\Main.bat
+echo To continue press one and to exit press two then press enter. If you have run this program but it has crashed or is a Developer for Coding Environment Set-up press 3. Themes are not allowed in crashed mode
 set /p yesno=choice1~3 >nul
 if %yesno%==1 goto Continue
 if %yesno%==2 exit
@@ -36,7 +37,7 @@ cls
 echo.
 echo - - - - - - - - - - - - -
 echo.
-echo Coding Enviroment Set-up
+echo Coding Environment Set-up
 echo.
 echo - - - - - - - - - - - - -
 echo.
@@ -61,7 +62,7 @@ cls
 echo.
 echo - - - - - - - - - - - - -
 echo.
-echo Coding Enviroment Set-up
+echo Coding Environment Set-up
 echo.
 echo - - - - - - - - - - - - -
 echo.
@@ -82,7 +83,7 @@ if %sized%==3 goto Full
 cls
 echo - - - - - - - - - - - - -
 echo.
-echo Coding Enviroment Set-up
+echo Coding Environment Set-up
 echo.
 echo - - - - - - - - - - - - -
 :Minimal
