@@ -17,6 +17,7 @@ mkdir Apple/AppleScript
 mkdir Batch
 mkdir C
 mkdir C#
+mkdir Python
 mkdir C++
 mkdir HTML/Javascipt/CSS
 mkdir Ruby

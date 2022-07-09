@@ -33,6 +33,7 @@ if %returntosizemenu2%==2 goto Return
 winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Google.AndroidStudio
 winget install -e --id RubyInstallerTeam.Ruby
+winget install -e --id Python.Python.3
 winget install -e --id Oracle.JavaRuntimeEnvironment rem java
 winget install -e --id Oracle.JDK.17 rem java
 start settings.bat

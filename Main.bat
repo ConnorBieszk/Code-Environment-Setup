@@ -56,6 +56,7 @@ mkdir C++
 mkdir HTML/Javascipt/CSS
 mkdir Ruby
 mkdir Lua
+mkdir Python
 mkdir Java
 :Return
 cls
@@ -109,7 +110,7 @@ winget install -e --id Oracle.JavaRuntimeEnvironment rem java
 winget install -e --id Oracle.JDK.17 rem java
 goto set
 :Full
-Echo App List: Visual Studio Code, Android Studio, Ruby, Java, Visual Studio, Eclipse,Notepad++, VIM, node.js, and Lua
+Echo App List: Visual Studio Code, Android Studio, Ruby, Java, Visual Studio, Eclipse,Notepad++, VIM, node.js, Python, and Lua
 echo if you wish to return press 2, to continue press 1
 set /p returntosizemenu3=choice1~2 >nul
 if %returntosizemenu3%==1 goto installatiofull
@@ -117,6 +118,7 @@ if %returntosizemenu3%==2 goto Return
 :installatiofull
 winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Google.AndroidStudio
+winget install -e --id Python.Python.3
 winget install -e --id RubyInstallerTeam.Ruby
 winget install -e --id Oracle.JavaRuntimeEnvironment rem java
 winget install -e --id Oracle.JDK.17 rem java
