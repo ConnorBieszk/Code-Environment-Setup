@@ -3,10 +3,15 @@ echo Size?
 echo 1  Minimal
 echo 2  Small
 echo 3  Full
-set /p sized=choice1~3 >nul
+set /p sized=choice1~4 >nul
 if %sized%==1 goto Minimal
 if %sized%==2 goto Small
 if %sized%==3 goto Full
+if %sized%==4 goto selector
+:selector
+cd bin
+start selector.bat
+exit
 cls
 echo - - - - - - - - - - - - -
 echo.
